@@ -157,7 +157,7 @@ AB_OTA_PARTITIONS += \
 # TARGET_ENFORCE_AB_OTA_PARTITION_LIST := true
 
 TW_OVERRIDE_SYSTEM_PROPS := \
-    "ro.build.product;ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental;ro.product.device=ro.product.system.device;ro.product.model=ro.product.system.model;ro.product.name=ro.product.system.name"
+    "ro.build.fingerprint=ro.system.build.fingerprint;ro.build.version.incremental"
 
 # Additional binaries & libraries needed for recovery
 TARGET_RECOVERY_DEVICE_MODULES += \
