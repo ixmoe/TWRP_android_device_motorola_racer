@@ -68,7 +68,6 @@ BOARD_KERNEL_CMDLINE := \
     service_locator.enable=1 \
     swiotlb=2048 \
     earlycon=msm_geni_serial,0x888000 \
-    loop.max_part=7 \
     cgroup.memory=nokmem,nosocket \
     androidboot.boot_devices=soc/1d84000.ufshc \
     firmware_class.path=/vendor/firmware_mnt/image
